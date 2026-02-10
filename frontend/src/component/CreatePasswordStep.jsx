@@ -1,7 +1,6 @@
 import { Eye, EyeOff, Lock } from "lucide-react";
-import Input from "./input";
 import PasswordStrengthMeter from "./PasswordStrengthMeter";
-
+import Input from "./Input";
 const CreatePasswordStep = ({
   password,
   setPassword,

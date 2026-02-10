@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Loader, Mail, Phone, User } from "lucide-react";
-import Input from "../component/input";
+import Input from "../component/Input";
 import CreatePasswordStep from "../component/CreatePasswordStep";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuthStore } from "../store/authStore";
