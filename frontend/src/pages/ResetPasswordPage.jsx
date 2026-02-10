@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useAuthStore } from '../store/authStore';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Lock, Eye, EyeOff } from 'lucide-react';
-import Input from '../component/input';
+import Input from '../component/Input';
 import toast from 'react-hot-toast';
 import PasswordStrengthMeter from '../component/PasswordStrengthMeter';
 
