@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useAuthStore } from "../store/authStore";
-import { formatDate } from "../utils/Date";
+import { formatDate } from "../utils/date";
 import { User, ShieldCheck, Phone, Mail, LogOut } from "lucide-react";
 import ConfirmationDialog from "../component/ConfirmationDialog";
 const DashboardPage = () => {
